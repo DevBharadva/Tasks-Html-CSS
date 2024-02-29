@@ -1,103 +1,48 @@
 body{
     background-color: black;
+
+}
+.main1{
+    
+}
+.main{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: white;  */
+    
 }
 
-
+.box2{
+    height: 180px;
+    width: 184px;
+    background-color: aliceblue;
+    transform: rotate(38deg);
+    position: absolute;
+    top: 54px;
+    left: 727px;
+    
+    
+}
 
 .box1{
-    height: 50px;
-    width: 50px;
-    background-color: orange;
-    top: 0;
-    left: 0;
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    transform: rotate(42deg);
     position: absolute;
-    margin: auto;
-}
-.box2{
-    height: 50px;
-    width: 50px;
-    background-color: orange;
-    top: 0;
-    left: 50vh;
-    right: 50vh;
-    margin: auto;
-    position: absolute;
+    top: 89px;
+    left: 508px;
 }
 
-.box3{
-    height: 50px;
-    width: 50px;
-    background-color: orange;
-    right: 0;
-    top: 0;
-    margin: auto;
-    position: absolute;
-}
 
-.box4{
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    top: 50vh;
-    bottom: 50vh;
-    left: 0;
-    margin: auto;
-    position: absolute;
-}
 
-.box5{
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    inset: 0;
-    margin: auto;
-    position: absolute;
-}
 
-.box6{
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    right: 0;
-    top: 50vh;
-    bottom: 50vh;
-    margin: auto;
-    position: absolute;
-}
-
-.box7{
-    height: 50px;
-    width: 50px;
-    background-color: green;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-}
-
-.box8{
-    height: 50px;
-    width: 50px;
-    background-color:   green;
-    bottom: 0;
-    right: 50vh;
-    left: 50vh;
-    margin: auto;    
-    position: absolute;
-}
-.box8:hover{
-    background-color: white;
-}
-.box9{
-    height: 50px;
-    width: 50px;
-    background-color: green;
-    margin: auto;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-}
-.box9:hover{
-    background-color: orange;
-   
+.box{
+    background-color: rgb(59, 57, 57);
+     height: 250px;
+     width: 250px;
+    
 }
